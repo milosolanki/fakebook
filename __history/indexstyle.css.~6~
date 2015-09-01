@@ -1,0 +1,24 @@
+input{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #A0A0A0;
+}
+
+#heading a{
+	color:white;
+	text-decoration:none;
+}
+
+button{
+	cursor: pointer;
+}
+body{
+	background-color:#eeeff4;
+	font-family: "Microsoft YaHei", "Segoe UI Symbol", Tahoma, sans-serif;
+}
+
+select{
+	border: 1px solid #A0A0A0;
+	padding: 4px;
+	border-radius: 5px;
+}

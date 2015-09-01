@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Fakebook | Register</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<head>
+<!--CSS-->
+<link rel='stylesheet' href='fakestyle.css'/>
+<style type='text/css'>
+body{
+ background:url('fakebook_connect.jpg');
+ background-size:cover;
+}
+</style>
+<!--end CSS-->
+<!--scripts-->
+<script src="regform.js"></script>
+<!--end scripts-->
+</head>
+
+		<!--body-->
+<body>
+<div id='heading' style='overflow:hidden;position:absolute;top:0px;left:0px;font-size:30px;'>
+<a href='index.php'>fakebook</a>
+</div>
+<div id='content' style='color:white;font-size:20px;padding-left:30px;padding-top:90px;'>
+Already have an account? <a href='index.php'><button>Log In</button></a>
+</div>
+<br>
+<br>
+<div id='form' style="padding-left:80px;padding-bottom:30px;">
+<form name='reg' action='register.php' method='post' onsubmit="return validateformreg();">
+		<fieldset style="border-radius:10px;padding:40px;width:300px;overflow:scroll;background-color:#eeeff4;border-shadow: 10px 5px;">
+		It was free, and always <b>may</b> be.
+		<legend style="font:30px;color:red;font-family:georgia;">Sign-Up</legend>
+		<p>Name:</p>
+		<input type='text' name='name' id='name' placeholder='Your name' autofocus autocomplete='on' size='25'><br>
+		<p>Please enter your iitk email id:</p>
+		<input type='text' name='user' id='user' placeholder="Enter your email here" autocomplete='on' size='30'><br>
+		<p>Enter your desired password:</p>
+		<input type='password' name='pass' id='pass' placeholder="Password" size='30' onfocus="puttext();" onblur="removetext();"><br>
+		<div id='warning'></div>
+		<p>Confirm your password:</p>
+		<input type='password' name='pass2' id='pass2' placeholder="Confirm your password" size='30'>
+		<p>Birthday:</p>Date:<input type='number' name='date' id='date' pattern='[0-9][0-9]*' min='0' max='31' size="2"/>&nbsp;&nbsp;Month:<input type='number' name='month' id='month' pattern='[0-9][0-9]*' min='0' max='12' size='2'/> </p>
+		<input type='submit' value="Register"></p>
+</fieldset>
+</form>
+</div>
+<div id="footer" style="color:white;position:relative;bottom:35px;left:50px;">
+<center>
+ <b><br><br>&copy; fakebook (Created only for educational purposes)</b>
+</center> 
+</div>
+
+</body>
+
+</html>

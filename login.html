@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Login | Fakebook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<head>
+
+<!--CSS-->
+<link rel="stylesheet" href="fakestyle.css">
+<!--end CSS-->
+<!--scripts here-->		
+<script src='loginform.js'></script>
+<!--end scripts-->
+</head>
+
+<body>
+
+   <!--heading-->
+<div id='heading' style="overflow:hidden;position:absolute;top:0px;left:0px;">
+<div style='font-size:30px;position:absolute;left:50px;top:10px;'>
+<a href='index.php'>fakebook</a></div>
+<div style="position:absolute;top:20px;left:650px;">
+<form name='login' action='login.php' onsubmit="return validateform(this);" method="post">
+<input id="user" type='text' name='user' style="padding-left:5px;" placeholder="Your Email" size="20" autofocus>&nbsp;&nbsp;
+<input id="pass" type='password' name='pass' style="padding-left:5px;" placeholder="Password">&nbsp;&nbsp;
+<input type='submit' value="Log In" name='submit'/><br>
+<input type='checkbox'><span style='color:#CFCFCF;font-size:13px;'>Remember me</span><span style='padding-left:130px;'><a href="forgotpassword.html" style="color:#CFCFCF;font-size:13px;">Forgot password?</a></span>
+</form>
+</div>
+</div>
+</div>
+<div id='body1'>
+<div id='notice' style="padding-left:50px;color:white;padding-top:90px;"><br><br><br>
+	You are not logged in. Please log in above.
+</div>
+
+  <!--content lines-->
+<div id="content" style='font-size:20px;padding-left:90px;padding-top:150px;color:white;'>
+Log in now to share photos.
+Don't have an account?&nbsp;&nbsp;&nbsp;&nbsp;<a href="register.html"><button>Sign-Up</button></a> &nbsp;&nbsp;(Free)
+</div>
+
+  <!--footer-->
+<div id="footer" style="position:absolute;bottom:35px;left:200px;color:white;">
+ <b>&copy; fakebook (Created only for educational purposes)</b>
+</div>
+</div>
+</body>
+</html>

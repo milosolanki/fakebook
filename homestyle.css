@@ -1,0 +1,31 @@
+#heading a{
+	color:white;
+	text-decoration:none;
+}
+body{
+	background-color:#eeeff4;
+}
+
+select{
+	border: 1px solid #fff;
+	padding: 4px;
+	border-radius: 5px;
+}
+#name{
+  position:absolute;
+  border:2px solid #ccc;
+  font-family:tahoma;
+  display:none;
+  height:30px;
+}
+.tagged{
+	opacity:0;
+	padding:10px;
+	background:#fff;
+	color:#333;
+	border:2px solid #ccc;
+}
+.tagged:hover{
+	opacity:1;
+	cursor:crosshair;
+}

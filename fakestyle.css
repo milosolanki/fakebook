@@ -1,0 +1,23 @@
+body{
+	background:url("option1.jpg");
+	background-repeat:repeat-y;
+	background-size:cover;
+	background-color:#eeeff4;
+}
+#heading{
+	font-family:georgia;
+	margin-left:0px;
+	color:white;
+	font-weight:bold;
+	background-color:#3b5999;
+	height:80px;
+	width:100%;
+	display:inline;
+}
+#heading a{
+ color:white;
+ text-decoration:none;
+}
+button{
+ cursor:pointer;
+}
